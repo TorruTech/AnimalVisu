@@ -63,7 +63,7 @@ export const App = () => {
   return (
     <>
       <div className={`container ${animate ? 'fade-in' : ''}`}>
-        <h1 className="text-5xl text-green-500">Adivina el animal</h1>
+        <h1 className="title">Adivina el animal</h1>
         <img src={animal.imagenUrl} alt={animal.nombre} className="animalPic" />
         <input
           type="text"
