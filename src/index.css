@@ -256,3 +256,49 @@ aside h3 {
   background: linear-gradient(45deg, rgb(0, 0, 0), #64766c);
   color: #ffffff;
 }
+
+
+/* Media Query para pantallas de hasta 1000px */
+@media screen and (max-width: 1000px) {
+  body {
+    flex-direction: column;
+  }
+
+  .container {
+    width: 350px;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .container h3 {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  input {
+    width: 80%;
+    height: 35px;
+  }
+
+  .checkButton {
+    min-width: 100px;
+    padding: 10px;
+  }
+
+  aside {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-top: 20px;
+    left: auto;
+    right: auto;
+  }
+
+  .animalPic {
+    width: 100%;
+    height: auto;
+  }
+}
