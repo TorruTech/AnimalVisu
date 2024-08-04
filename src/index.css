@@ -168,12 +168,26 @@ input {
   color: #fff;
 }
 
+.light-mode .checkButton:active {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+  background: linear-gradient(45deg, #17650f, #09773d);
+  color: #fff;
+}
+
 .dark-mode .checkButton {
   background: linear-gradient(45deg, #444, #888);
   color: #fff;
 }
 
 .dark-mode .checkButton:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+  background: linear-gradient(45deg, #000000, #464343);
+  color: #d5cece;
+}
+
+.dark-mode .checkButton:active {
   transform: scale(1.1);
   transition-duration: 0.3s;
   background: linear-gradient(45deg, #000000, #464343);
